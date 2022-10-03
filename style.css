@@ -1,0 +1,505 @@
+body{
+    font-family: 'Times New Roman';
+}
+
+.main-content1{
+    background-color: #AAA69D;
+    display: grid;
+    grid-template-areas: 
+    "chead head"
+    "pict text";
+    grid-template-columns: 1fr 3fr;
+}
+
+header{
+    grid-area: head;
+    background-color: #F7F1E3;   
+}
+
+nav{
+    color: #218C74;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #F7F1E3;
+    margin-left: 20rem;
+}
+
+nav >a{
+    padding-right: 40px;
+    text-decoration: underline;
+}
+
+.head-title{
+    color: #218C74;
+    font-size: 40px;
+    font-family: 'sail';
+    padding-right: 5rem;
+    margin-left: 26rem;
+}
+
+.main-pict{
+    grid-area: pict;
+}
+
+.main-pict1 >img{
+    width: 95%;
+}
+
+/* .pict{
+    border: solid black;
+    position: relative;
+}
+
+.main-pict2 >img{
+    width: 76%;
+    position: absolute;
+} */
+
+.main-text{
+    grid-area:text;
+}
+
+.text{
+    margin-left: 20rem;
+}
+
+.text >h1{
+    font-size: 65px;
+    color: #218C74;
+}
+
+.text >h2{
+    font-size: 25px;
+    color: #218C74;
+}
+
+.main-text1{
+    margin-left: 20rem;
+    font-size: 25px;  
+}
+
+.main-text1 >a{
+    color: #218C74;
+    text-decoration: underline;
+}
+
+.cv-color{
+    background-color: #14614F;
+}
+
+.cv-color >a{
+    color: white;
+}
+
+.main2-text{
+  color: #14614F; 
+}
+
+.mc2-head{
+    font-size: 40px;
+    padding-top: 40px;
+    color: #14614F; 
+}
+
+.mc2-text{
+    font-size: 25px;
+}
+
+.main2-pict{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-bottom: 2rem;
+}
+
+.bg-pict{
+    background-color: #84817A;
+    height: 378px;
+    width: 378px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pict >img{
+    width: 100%;
+}
+
+.mc3-head{
+    font-size: 40px;
+    padding-top: 40px;
+    color: #218C74;
+}
+
+.edu-main1-text >h1{
+    color: #14614F;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.edu-main1-text >h2{
+    color: #14614F;
+    font-size: 20px;
+}
+
+.edu-main1-pict{
+    margin-left: 0;
+}
+
+.pict-e1 {
+    width: 200px;
+    height: 200px;
+}
+
+.pict-e1 >img{
+    width: 100%;
+}
+.edu-main2-text >h1{
+    color: #14614F;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.edu-main2-text >h2{
+    color: #14614F;
+    font-size: 20px;
+}
+
+.edu-main2-pict{
+    margin-left: 0;
+}
+
+.pict-e2 {
+    width: 200px;
+    height: 200px;
+}
+
+.pict-e2 >img{
+    width: 100%;
+}
+
+.a-p-pict1{
+    width: 680px;
+    height: 345px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tcow-pict >img{
+    width: 90%;
+}
+.a-p-pict2{
+    width: 680px;
+    height: 345px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.g4n-pict >img{
+    width: 90%;
+}
+
+.mp1-text1{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-text1 >p{
+    font-size: 25px;
+    text-align: justify;
+    padding: 5px;
+    color: #14614F;
+}
+.mp1-text2{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-text2 >p{
+    font-size: 25px;
+    text-align: justify;
+    padding: 5px;
+    color: #14614F;
+}
+
+.main-project-grid{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-areas: 
+    "a b c d e"
+    "f g h i j";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.p-main-content{
+    width: 100%;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-content-text >h2{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.p-content-pict1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.p-pict1{
+    width: 80%;
+}
+.p-content-pict2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.p-pict2 >img{
+    width: 200px;
+}
+
+.contact {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #F7F1E3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #14614F;
+    margin-top: 100px;
+}
+
+.social {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social > p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    gap: 1rem;
+}
+
+.gambar {
+    width: 35px;
+}
+
+.gambar > img {
+    width: 100%;
+}
+
+.cr {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 1080px){
+    .main-content1{
+        background-color: #F7F1E3;
+        grid-template-areas: 
+        "head"
+        "pict"
+        "text";
+        grid-template-columns: 1fr;
+    }
+
+    nav{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 3rem;
+    }
+
+    .head-title{
+        margin-left: 9rem;
+        font-size: 50px;
+    } 
+
+    .main-pict1 >img{
+        width: 80%;
+    }
+
+    .text{
+        margin-left:10px;
+    }
+
+    .text >h1{
+        font-size: 40px;
+        color: #218C74;
+    }
+    
+    .text >h2{
+        font-size: 18px;
+        color: #218C74;
+    }
+
+    .main-text1{
+        margin-top: 0;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        font-size: 30px;  
+        gap:50px;
+    }
+
+    .mc2-text{
+        font-size: 15px;
+    }
+
+    .main2-pict{
+        margin-top: 5rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .edu-main1{
+        flex-direction: column-reverse;
+    }
+
+    .edu-main1-pict{
+        margin-bottom: 10px;
+    }
+
+    .edu-main1-text{
+        margin-left: 0rem;
+        padding: 10px;
+    }
+
+    .edu-main2{
+        flex-direction: column;
+    }
+
+    .edu-main2-pict{
+        margin-bottom: 10px;
+    }
+
+    .edu-main2-text{
+        margin-right: 0rem;
+        padding: 10px;
+    }
+
+    .main-project1{
+        flex-direction: column;
+    }
+    .main-project2{
+        flex-direction:column-reverse;
+    }
+    
+
+    .mp1-text1{
+        width: 300px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .p-text1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p-text1 >p{
+        font-size: 10px;
+        text-align: justify;
+        padding: 5px;
+        color: #14614F;
+    }
+
+    .a-p-pict1{
+        width: 130px;
+        height: 65px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tcow-pict >img{
+        width: 100%;
+    }
+    .mp1-text2{
+        width: 300px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .p-text2 >p{
+        font-size: 10px;
+        text-align: justify;
+        padding: 5px;
+        color: #14614F;
+    }
+
+    .a-p-pict2{
+        width: 130px;
+        height: 65px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .g4n-pict >img{
+        width: 100%;
+    }
+    
+    .main-project-grid{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-template-areas: 
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i j";
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .p-main-content{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .contact{
+        margin-top: 0px;
+    }
+}
