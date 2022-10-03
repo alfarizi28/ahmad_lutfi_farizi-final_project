@@ -393,6 +393,7 @@ nav >a{
 
     .edu-main1-text{
         margin-left: 0rem;
+        margin-right: 0rem;
         padding: 10px;
     }
 
@@ -406,6 +407,7 @@ nav >a{
 
     .edu-main2-text{
         margin-right: 0rem;
+        margin-left: 0rem;
         padding: 10px;
     }
 
